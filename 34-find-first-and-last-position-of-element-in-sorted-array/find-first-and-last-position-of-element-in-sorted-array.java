@@ -48,7 +48,7 @@ class Solution {
                 right = mid - 1;
             }
         }
-
-        return new int[]{first, last};
+         int[] answer = {first, last};
+        return answer;
     }
 }
